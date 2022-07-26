@@ -116,11 +116,17 @@ img {
   align-items: center;
   margin-left: auto;
   gap: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-email-icon {
+  margin-right: 10px;
 }
 
 .header-email {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  display: inline-flex;
+  align-items: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -134,8 +140,8 @@ img {
 }
 
 .header-tel {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  display: inline-flex;
+  align-items: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -171,11 +177,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-/* .hero:hover,
-.hero:focus {
-  background-color: #c4c4c4;
-} */
 
 .hero-title {
   max-width: 696px;
