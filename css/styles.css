@@ -111,46 +111,33 @@ img {
   color: var(--accent-color);
 }
 
+/* Контакти */
+
 .contacts-list {
   display: flex;
   align-items: center;
   margin-left: auto;
   gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
-.header-email-icon {
+.contacts-item-icon {
   margin-right: 10px;
+  fill: var(--primary-text-color);
 }
 
-.header-email {
-  display: inline-flex;
+.contacts-link {
+  display: flex;
   align-items: center;
-  font-weight: 400;
+  padding: 32px 0;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
-.header-email:hover,
-.header-email:focus {
-  color: var(--accent-color);
-}
-
-.header-tel {
-  display: inline-flex;
-  align-items: center;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
-
-.header-tel:hover,
-.header-tel:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -212,7 +199,7 @@ img {
   color: var(--second-title-text-color);
 }
 
-/* Особливості */
+/* Переваги */
 
 .features-list {
   display: flex;
@@ -343,7 +330,7 @@ img {
   color: var(--accent-color);
 }
 
-.footer-email {
+.footer-contacts {
   display: block;
   margin-bottom: 9px;
   font-weight: 400;
@@ -353,21 +340,8 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-email:hover,
-.footer-email:focus {
-  color: var(--accent-color);
-}
-
-.footer-tel {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-tel:hover,
-.footer-tel:focus {
+.footer-contacts:hover,
+.footer-contacts:focus {
   color: var(--accent-color);
 }
 
