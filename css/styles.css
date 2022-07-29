@@ -57,7 +57,7 @@ img {
   list-style: none;
 }
 
-/* Шапка */
+/* -------------------------Шапка--------------------------- */
 
 .header {
   border: 1px solid #ececec;
@@ -111,7 +111,7 @@ img {
   color: var(--accent-color);
 }
 
-/* Контакти */
+/*-----------------------Контакти--------------------- */
 
 .contacts-list {
   display: flex;
@@ -141,7 +141,7 @@ img {
   color: var(--accent-color);
 }
 
-/* Герой */
+/* --------------------Герой--------------------- */
 
 .hero {
   max-width: 1600px;
@@ -198,7 +198,7 @@ img {
   color: var(--second-title-text-color);
 }
 
-/* Переваги */
+/* -----------------------Переваги------------------- */
 
 .features-list {
   display: flex;
@@ -237,7 +237,7 @@ img {
   color: var(--primary-text-color);
 }
 
-/* Робота */
+/* ----------------------Робота--------------------- */
 
 .work {
   padding-top: 0;
@@ -260,7 +260,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-/* Команда */
+/* -------------------Команда---------------- */
 
 .team {
   background-color: #f5f4fa;
@@ -330,7 +330,7 @@ img {
   color: var(--second-title-text-color);
 }
 
-/* Клієнти */
+/* -----------------------Клієнти--------------------- */
 
 .clients-list {
   display: flex;
@@ -359,7 +359,7 @@ img {
   fill: currentColor;
 }
 
-/* Підвал */
+/* ----------------------Підвал------------------- */
 
 .footer {
   padding-top: 60px;
@@ -387,9 +387,16 @@ img {
   color: var(--second-title-text-color);
 }
 
+.connect {
+  margin-bottom: 9px;
+}
+
+.connect:last-child {
+  margin-bottom: 0;
+}
+
 .main-address {
   display: block;
-  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -404,7 +411,6 @@ img {
 
 .footer-contacts {
   display: block;
-  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -417,7 +423,7 @@ img {
   color: var(--accent-color);
 }
 
-/* Соціальні мережі */
+/* ----------------------Соціальні мережі------------------- */
 
 .footer-soc {
   margin-left: 70px;
@@ -454,7 +460,7 @@ img {
   background-color: var(--accent-color);
 }
 
-/* Стилі для портфоліо */
+/* ----------------------Стилі для портфоліо----------------- */
 
 .visually-hidden {
   position: absolute;
